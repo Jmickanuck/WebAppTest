@@ -1,0 +1,5 @@
+FastAPI==0.99.0
+mangum
+openai==0.28
+requests
+pydantic
