@@ -22,9 +22,9 @@ const keywordElement = [];
 
     return <>
 
-    <div>
+    <div className="m-full w-full">
       <div>
-        <div className="  bg-slate-800 rounded-lg border-2 border-black border-opacity-50 w-auto m-auto ">
+        <div className="  bg-slate-800 rounded-lg border-2 border-black border-opacity-50 w-auto ">
         <div className="font-light opacity-20 m-1 w-1 h-5">
           Prompt:
         </div>

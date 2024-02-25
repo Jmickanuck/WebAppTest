@@ -34,7 +34,7 @@ const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
 
     return (
     <>
-      <p className="mb-4">
+      <p className="mb-5">
         Give me a topic for a shitty joke! then ill give you 5 words that rhyme!
       </p>
         <div className="text-md mb-4">

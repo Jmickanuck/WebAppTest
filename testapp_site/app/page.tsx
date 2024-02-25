@@ -53,8 +53,8 @@ const Home: React.FC = () => {
 
   return (
     <div className='h-screen flex w-screen'>
-      <div className='w-auto h-auto m-auto p-4'>
-        <div className='bg-slate-900 p-20 rounded-xl border-4 border-slate-950 border-gredient-80'>
+      <div className='w-full h-auto m-auto p-4'>
+        <div className='bg-slate-900 p-1 rounded-xl border-4 border-slate-950 border-gredient-80'>
           <div className='text-center mb-8 text-orange-100'>
         <Image src={logo} alt="Logo" width={100} height={100} className='m-auto rounded-md'/>
           <h1 className=' text-3xl font-semibold' >Test App!</h1>
