@@ -3,6 +3,8 @@ import { Snippet } from 'next/font/google';
 import React from 'react';
 import Form from './form';
 import Results from './results';
+import Image from "next/image";
+import logo from "../public/SUPACAT.png"
 
 
 const Home: React.FC = () => {
@@ -50,10 +52,20 @@ const Home: React.FC = () => {
   
 
   return (
-    <>
-    <h1>Test App!</h1>
-      {displayedElement}
-    </>
+    <div className='h-screen flex w-screen'>
+      <div className='w-auto h-auto m-auto p-4'>
+        <div className='bg-slate-900 p-20 rounded-xl border-4 border-slate-950 border-gredient-80'>
+          <div className='text-center mb-8 text-orange-100'>
+        <Image src={logo} alt="Logo" width={100} height={100} className='m-auto rounded-md'/>
+          <h1 className=' text-3xl font-semibold' >Test App!</h1>
+          <div className='text-xs'>The first of its kind!</div>
+          </div>
+          <div className='text-center'>{displayedElement}</div>
+          
+        </div>
+      </div>
+    </div>
+
   );
   };
 
