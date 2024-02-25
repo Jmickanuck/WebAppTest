@@ -39,7 +39,7 @@ const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
       </p>
         <div className="text-md mb-4">
           <input
-          className="p-1 w-full rounded-md text-slate-950 font-semibold focus:outline-stone-800 " 
+          className="p-1 w-1/2 rounded-md text-slate-950 font-semibold focus:outline-stone-800 " 
           type="text"
           placeholder="Bagels" 
           value={props.prompt} 
